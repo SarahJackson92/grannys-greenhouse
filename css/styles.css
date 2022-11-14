@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #eef9e8;
+}
+header {
+    width: 100%;
+    background-color: #a8bd94;
+    height: 85px;
+    position: fixed;
+    z-index: 1;
+}
+header #logo img {
+    width: 180px;
+    padding-bottom: 25px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    bottom:15px;
+}
+header #phone {
+    float: left;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+header #phone a {
+    text-decoration: none;
+}
+header #social {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+header #social img{
+    width: 15px;
+    float: left;
+    margin: 5px;
+}
+header nav {
+    width: 100%;
+    background-color: #e0d3a6;
+    height: 40px;
+    position: absolute;
+    top: 85px;
+    
+}
+header nav ul {
+    width: 470px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+header nav ul li {
+    
+    font-weight: 600;
+    float: left;
+    margin: 21px;
+    position: relative;
+    bottom: 10px;
+    
+    
+}
+a:link {
+    color: #38462b;
+    font-family: 'lato', sans-serif; 
+    text-decoration: none;
+}
+a:hover {
+    color:#eef9e8;
+} 
+#banner{ 
+    position: relative;
+    top: 150px;
+    text-align: center;
+    
+}
+#banner img {
+    width: 80%;
+}
+h1 {
+    font-family: 'lato', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    color: #3d3626;
+    text-align: center;
+}
+h2 {
+    font-family: 'lato', sans-serif;
+    font-size: 22px;
+    color: #3d3626;
+    text-align: center;
+}
+h3{
+    font-family: 'lato', sans-serif;
+    color: #3d3626;
+}
+#home {
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+#home #hours {
+    position: relative;
+    top:20px;
+}
+#home #location {
+    position: relative;
+    top: 40px;
+}
+#consultation {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    padding-bottom:160px;
+}
+#consultation a {
+    text-decoration: none; 
+    padding: 10px;
+    margin-bottom:30px;
+    outline:2px solid #38462b;
+    background-color: #e7c696;
+}
+footer {
+    width: 100%;
+    background-color: #e0d3a6;
+    height: 70px;
+    position: fixed;
+    bottom: 0px;
+}
+#phonefoot {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 29px;
+}
+#sfoot {
+    float: left;
+    position: relative;
+    top:30px;
+    right: 80px;
+}
+#sfoot img {
+    width: 15px;
+    float: left;
+    margin: 5px;
+}
+#footlogo {
+    position: relative;
+    top: 10px;
+}
+#footlogo img {
+    width: 130px;
+    float: right;
+    position: relative;
+    right:15px;
+}
+p.indent{
+    text-indent: 30px;
+}
+/* Consultation Form Page */
+#form {
+    outline:3px solid #38462b;
+    background-color: #e7c696;
+    width:50%;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: 0 auto; 
+    margin-bottom: 300px;
+}
+#more {
+    position: relative;
+    top: 170px;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+    text-align:center;
+}
+#form h2{
+    background-color:#a8bd94;
+    padding:20px;
+}
+#form p{
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+#form label{
+    position:relative;
+    margin: 0 auto;
+    color: #3d3626;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+#form input{
+    background-color: #eef9e8;
+    color: #3d3626;
+    font-family: 'Lato', sans-serif;
+    padding:5px;
+}
+#form select{
+    background-color: #eef9e8;
+    color: #3d3626;
+    font-family: 'Lato', sans-serif;
+    padding:5px;
+}
+#form textarea{
+    background-color: #eef9e8;
+    color: #3d3626;
+    padding:5px;
+    font-family: 'Lato', sans-serif;
+}
+#form #reset{
+    padding: 5px;
+    outline:2px solid #38462b;
+    margin: 10px;
+    background-color: #a8bd94;
+    color: #38462b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+#form #submit{
+
+    padding: 5px;
+    outline:2px solid #38462b;
+    background-color: #a8bd94;
+    color: #38462b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+/*About Page*/
+#about {
+    position: relative;
+    top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+#about img {
+width: 80%;
+margin-top:10px;
+margin-bottom: 10px;
+}
+#about p{
+    padding:0 50px 0;
+    text-align:left;
+}
+/*Inventory Page*/
+#inventory {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+#inventory img {
+    width: 50%;
+    }
+/*Design Page*/
+#design{
+    position: relative;
+    top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+#design p{
+    padding:0 50px 0;
+}
+#design #consultation {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    padding-bottom:140px;
+}
+#design img{
+    width: 35%;
+    margin: 5px;
+}
