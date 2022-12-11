@@ -74,6 +74,9 @@ a:visited{
 a:hover {
     color:#eef9e8;
 } 
+.body a:hover{
+    color: #3d3626;
+}
 #banner{ 
     position: relative;
     top: 150px;
@@ -114,9 +117,7 @@ h3{
     position: relative;
     top: 40px;
 }
-#home #location a:hover{
-    color: #3d3626;
-}
+
 #consultation {
     width: 100%;
     position: relative;
@@ -251,7 +252,7 @@ margin-top:10px;
 margin-bottom: 10px;
 }
 #about p{
-    padding:0 50px 0;
+    padding:0 10% 0;
     text-align:left;
 }
 /*Inventory Page*/
@@ -286,4 +287,33 @@ margin-bottom: 10px;
 #design img{
     width: 35%;
     margin: 5px;
+}
+#designimg{
+    max-width:1200px;
+    margin:0 auto 0;
+}
+/* Visit Page */
+#visit {
+    width:85%;
+    margin:0 auto 0;
+    position: relative;
+    top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+/*Contact Page*/
+#contact{
+    width:85%;
+    margin:0 auto 0;
+    position: relative;
+    top: 170px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    color: #3d3626;
+}
+#contact img{
+    width: 50%;
 }
